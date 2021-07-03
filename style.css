@@ -1,10 +1,18 @@
 html {
 
     font-family: Helvetica, Arial, sans-serif;
+    color:white;
 }
 
 .grid {
 
     display: grid;
     grid-template-columns: auto auto;
+}
+
+body {
+    background-image: url("images/thumb.png");
+    background-repeat: no-repeat;
+    
+    
 }
