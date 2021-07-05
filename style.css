@@ -7,13 +7,26 @@ html {
 .grid {
 
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% auto;
 }
-/*
+
 body {
+    background-color: darkgrey;
+    /*
     background-image: url("images/thumb.png");
     background-repeat: no-repeat;
-    
+    */
     
 }
-*/
+
+.bordered {
+
+    border: thin solid black;
+    padding: 20px;
+
+}
+
+h3 {
+
+    border-bottom: thin solid black;
+}
